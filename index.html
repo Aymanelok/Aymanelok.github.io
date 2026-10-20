@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101817">
+  <meta name="description" content="Portfolio d'Aymane Ait Ouhammou, élève-ingénieur spécialisé en data engineering, Big Data et intelligence artificielle.">
+  <title>Aymane Ait Ouhammou — Data Engineer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Accueil — Aymane Ait Ouhammou"><span class="brand-mark">A.</span><span>Aymane Ait Ouhammou</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <nav id="navigation" class="navigation" aria-label="Navigation principale">
+      <a href="#profil">Profil</a><a href="#projets">Projets</a><a href="#parcours">Parcours</a><a href="#competences">Compétences</a>
+      <a class="nav-contact" href="mailto:aymane.aitouhammou@uir.ac.ma">Me contacter <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero section-wrap" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Élève-ingénieur · Big Data & IA</p>
+        <h1>Je transforme<br>la donnée en<br><em>décisions utiles.</em></h1>
+        <p class="hero-intro">Data engineering, systèmes distribués et intelligence artificielle : je conçois des solutions robustes, pensées pour répondre à des enjeux concrets.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projets">Explorer mes projets <span aria-hidden="true">↘</span></a><a class="button button-quiet" href="assets/Aymane-Ait-Ouhammou-CV.pdf" download>Télécharger mon CV <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>Rabat · Kénitra, Maroc</span><span>Disponible pour un stage PFE</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration abstraite de flux de données" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="core"><span class="core-label">DATA</span><span class="core-symbol">✳</span><span class="core-label">ENGINEERING</span></div>
+        <span class="node node-a">01 <b>INGEST</b></span><span class="node node-b">02 <b>TRANSFORM</b></span><span class="node node-c">03 <b>DELIVER</b></span>
+        <span class="art-caption">Du flux brut à la valeur métier.</span>
+      </div>
+      <a class="scroll-cue" href="#profil"><span></span> Défiler pour découvrir</a>
+    </section>
+
+    <section class="profile section-wrap section-pad" id="profil">
+      <div class="section-heading"><p class="eyebrow">01 / À propos</p><h2>Une double formation,<br><em>une même ambition.</em></h2></div>
+      <div class="profile-content"><p class="profile-lead">Je suis élève-ingénieur en 5ᵉ année en <strong>Ingénierie Big Data & IA</strong> à l’Université Internationale de Rabat, en double diplomation avec le Master d’Excellence en <strong>IA & Objets Connectés</strong> de l’Université Ibn Tofail.</p><p>Je m’intéresse à toute la chaîne de la donnée : ingestion, transformation, stockage, analyse et mise à disposition. Mes projets m’ont amené à travailler sur des architectures distribuées, des pipelines ETL/ELT, le machine learning et des applications orientées métier.</p><p>Je recherche un stage de fin d’études où contribuer à des plateformes de données fiables, performantes et utiles aux équipes qui les exploitent.</p>
+        <div class="quick-facts"><div><span class="fact-number">20M+</span><span class="fact-label">lignes traitées sur un projet Big Data</span></div><div><span class="fact-number">2</span><span class="fact-label">universités · double diplomation</span></div><div><span class="fact-number">FR · EN</span><span class="fact-label">niveau C1 · arabe natif</span></div></div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projets"><div class="section-wrap">
+      <div class="section-heading project-heading"><div><p class="eyebrow">02 / Sélection de travaux</p><h2>Des idées aux<br><em>systèmes concrets.</em></h2></div><p class="heading-note">Projets académiques et professionnels autour de la donnée, de l’IA et de systèmes utiles au quotidien.</p></div>
+      <div class="filters" role="group" aria-label="Filtrer les projets"><button class="filter is-active" data-filter="all" aria-pressed="true">Tous <span>11</span></button><button class="filter" data-filter="data" aria-pressed="false">Data & Big Data</button><button class="filter" data-filter="ai" aria-pressed="false">IA & ML</button><button class="filter" data-filter="systems" aria-pressed="false">Systèmes & IoT</button></div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card feature-card" data-category="systems"><div class="card-top"><span class="project-index">01</span><span class="project-type">Stage · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>DealHub</h3><p class="project-subtitle">Plateforme SaaS commerciale</p><p class="project-description">Conception d’une plateforme multi-tenant réunissant CRM, transactions et suivi financier, avec une attention forte portée à l’isolation des données et à la traçabilité.</p><div class="tags"><span>PostgreSQL</span><span>RBAC</span><span>OWASP</span><span>Audit trail</span></div></article>
+        <article class="project-card" data-category="ai"><div class="card-top"><span class="project-index">02</span><span class="project-type">Machine learning · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>ChurnIQ AI</h3><p class="project-subtitle">Prédiction du churn télécom</p><p class="project-description">Pipeline de préparation et de modélisation avec CatBoost, explicabilité SHAP et API FastAPI reliée à un tableau de bord React.</p><div class="tags"><span>CatBoost</span><span>SHAP</span><span>FastAPI</span><span>React</span></div></article>
+        <article class="project-card" data-category="ai"><div class="card-top"><span class="project-index">03</span><span class="project-type">Simulation · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Vox-Arena</h3><p class="project-subtitle">Simulation de foules & LiveGuide</p><p class="project-description">Modélisation multi-agents de flux de foule et outil de simulation de scénarios d’évacuation pour éclairer l’organisation de grands rassemblements.</p><div class="tags"><span>Multi-agents</span><span>Simulation</span><span>Aide à la décision</span></div></article>
+        <article class="project-card" data-category="data"><div class="card-top"><span class="project-index">04</span><span class="project-type">Big Data · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Énergie & Big Data</h3><p class="project-subtitle">Data warehouse énergétique · 20M+ lignes</p><p class="project-description">Chaîne analytique selon l’architecture Médaillon : ingestion distribuée, stockage colonnaire, transformations et analyse de données énergétiques.</p><div class="tags"><span>HDFS</span><span>Hive Tez</span><span>Parquet</span><span>PySpark</span></div></article>
+        <article class="project-card" data-category="ai"><div class="card-top"><span class="project-index">05</span><span class="project-type">NLP · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Détection de discours haineux</h3><p class="project-subtitle">Modération avec agents spécialisés</p><p class="project-description">Système de modération combinant des agents spécialisés, des modèles de deep learning et des techniques de traitement du langage naturel.</p><div class="tags"><span>CrewAI</span><span>PyTorch</span><span>NLP</span><span>HatEval</span></div></article>
+        <article class="project-card" data-category="systems"><div class="card-top"><span class="project-index">06</span><span class="project-type">IoT · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>SerreIoT</h3><p class="project-subtitle">Supervision intelligente d’une serre</p><p class="project-description">Collecte de mesures environnementales et pilotage d’actionneurs pour suivre les conditions de culture et automatiser des actions.</p><div class="tags"><span>MQTT</span><span>Raspberry Pi</span><span>Node-RED</span><span>React</span></div></article>
+        <article class="project-card" data-category="ai"><div class="card-top"><span class="project-index">07</span><span class="project-type">Vision & signal · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Restauration d’images</h3><p class="project-subtitle">Dé-floutage de plaques d’immatriculation</p><p class="project-description">Étude et mise en œuvre de méthodes de traitement fréquentiel pour estimer et inverser le flou tout en limitant l’amplification du bruit.</p><div class="tags"><span>Fourier</span><span>Analyse cepstrale</span><span>Filtre de Wiener</span></div></article>
+        <article class="project-card" data-category="systems"><div class="card-top"><span class="project-index">08</span><span class="project-type">Sécurité · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Maroc Digital Trust Gateway</h3><p class="project-subtitle">Signature & intégrité documentaires</p><p class="project-description">Application de bureau Python dédiée à la validation, à la signature numérique et à l’archivage sécurisé de documents.</p><div class="tags"><span>Python</span><span>Cryptographie</span><span>Zero-Trust</span></div></article>
+        <article class="project-card" data-category="ai"><div class="card-top"><span class="project-index">09</span><span class="project-type">Data & RH · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>SmartRecruit_UIT</h3><p class="project-subtitle">Scoring de candidatures académiques</p><p class="project-description">Application d’aide à la décision pour structurer, analyser et classer des dossiers de candidatures selon des critères définis.</p><div class="tags"><span>Python</span><span>Flask</span><span>Scoring</span><span>SHAP</span></div></article>
+        <article class="project-card" data-category="systems"><div class="card-top"><span class="project-index">10</span><span class="project-type">Ingénierie des exigences · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Bazzar</h3><p class="project-subtitle">Gestion des stocks pour les commerces</p><p class="project-description">Étude des besoins des petites entreprises marocaines et benchmark de solutions pour cadrer un système de gestion des stocks adapté.</p><div class="tags"><span>Analyse métier</span><span>Benchmark</span><span>Spécifications</span></div></article>
+        <article class="project-card" data-category="data"><div class="card-top"><span class="project-index">11</span><span class="project-type">Outil pédagogique · 2026</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>DataVizUIT</h3><p class="project-subtitle">Visualisation de structures de données</p><p class="project-description">Outil interactif en C++ pour explorer des structures de données et faire le lien entre représentation graphique et code.</p><div class="tags"><span>C++</span><span>Qt</span><span>SFML</span><span>Graphes</span></div></article>
+      </div><p class="empty-state" hidden>Aucun projet dans cette catégorie.</p>
+    </div></section>
+
+    <section class="journey section-wrap section-pad" id="parcours"><div class="section-heading"><p class="eyebrow">03 / Parcours</p><h2>Apprendre, construire,<br><em>faire ses preuves.</em></h2></div><div class="timeline">
+      <article class="timeline-item"><div class="timeline-date">2026 — 2027</div><div class="timeline-marker"></div><div class="timeline-body"><h3>5ᵉ année cycle ingénieur · IA & Big Data</h3><p>Université Internationale de Rabat (UIR)</p><span class="timeline-note">En cours · double diplomation</span></div></article>
+      <article class="timeline-item"><div class="timeline-date">2026 — 2027</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Master d’Excellence · IA & Objets Connectés</h3><p>Université Ibn Tofail, Kénitra</p><span class="timeline-note">En cours · double diplomation</span></div></article>
+      <article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Ingénieur Data & Backend Full-Stack · Stage</h3><p>RAMAQS CONSULTING · Projet DealHub</p><span class="timeline-note">PostgreSQL multi-tenant · sécurité · transactions</span></div></article>
+      <article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Ingénieur Conception & Sécurité</h3><p>Cité de l’Innovation de Rabat · Maroc Digital Trust Gateway</p><span class="timeline-note">Architecture Python · signature numérique</span></div></article>
+      <article class="timeline-item"><div class="timeline-date">2024 — 2025</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Licence d’Excellence · IA & Ingénierie de Données</h3><p>Université Ibn Tofail, Kénitra</p></div></article>
+    </div></section>
+
+    <section class="skills section-pad" id="competences"><div class="section-wrap"><div class="section-heading"><p class="eyebrow">04 / Boîte à outils</p><h2>Des bases solides,<br><em>des outils bien choisis.</em></h2></div><div class="skills-grid">
+      <article class="skill-group"><span class="skill-number">01</span><h3>Data engineering</h3><p>Concevoir des flux de données fiables, de l’ingestion à la restitution.</p><div class="skill-list"><span>Apache Spark / PySpark</span><span>Hadoop HDFS</span><span>Hive · Tez</span><span>Apache NiFi</span><span>Airflow · Talend</span><span>Parquet · Médaillon</span></div></article>
+      <article class="skill-group"><span class="skill-number">02</span><h3>IA & analyse</h3><p>Explorer les données et construire des modèles explicables.</p><div class="skill-list"><span>Python</span><span>CatBoost</span><span>PyTorch</span><span>SHAP</span><span>Pandas · NumPy</span><span>Scikit-learn</span></div></article>
+      <article class="skill-group"><span class="skill-number">03</span><h3>Cloud & plateformes</h3><p>Développer et déployer des applications connectées et maintenables.</p><div class="skill-list"><span>Microsoft Azure</span><span>Docker</span><span>Linux</span><span>Git</span><span>FastAPI · Flask</span><span>React</span></div></article>
+      <article class="skill-group"><span class="skill-number">04</span><h3>Données & sécurité</h3><p>Structurer, interroger et protéger les systèmes et leurs accès.</p><div class="skill-list"><span>PostgreSQL · SQL</span><span>NoSQL</span><span>MQTT</span><span>RBAC</span><span>OWASP Top 10</span><span>Architecture Zero-Trust</span></div></article>
+    </div><div class="certifications"><p class="eyebrow">Certifications</p><div class="cert-list"><span>Big Data, AI, and Ethics <small>UC Davis</small></span><span>Python Programming <small>Microsoft</small></span><span>Generative AI <small>IBM</small></span><span>Gestion de projet <small>PMI</small></span></div></div></div></section>
+
+    <section class="contact section-wrap section-pad" id="contact"><div class="contact-panel"><div><p class="eyebrow">05 / Et maintenant ?</p><h2>Construisons quelque chose<br><em>d’utile avec la donnée.</em></h2><p class="contact-copy">Vous recrutez un stagiaire PFE en data engineering ou vous souhaitez échanger sur un projet ? Écrivez-moi.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:aymane.aitouhammou@uir.ac.ma">aymane.aitouhammou@uir.ac.ma <span aria-hidden="true">↗</span></a><a class="social-link" href="https://github.com/Aymanelok" target="_blank" rel="noreferrer">Voir mon GitHub <span aria-hidden="true">↗</span></a><a class="social-link" href="tel:+212691672015">+212 6 91 67 20 15</a></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#accueil"><span class="brand-mark">A.</span><span>Aymane Ait Ouhammou</span></a><span>Data Engineer · Rabat / Kénitra, Maroc</span><a href="#accueil">Retour en haut ↑</a><span class="copyright">© <span id="year">2026</span> · Fait avec soin</span></footer>
+</body>
+</html>
